@@ -38,20 +38,28 @@ def generate(args):
     demo = getattr(args, "demo", False)
 
     # Load config
+    root_dir = os.path.join(os.path.dirname(__file__), "..")
     if demo:
-        config_path = os.path.join(os.path.dirname(__file__), "..", "config.example.yml")
+        config_candidates = [
+            os.path.join(root_dir, "config.example.yml"),
+            os.path.join(root_dir, "config.yml"),
+        ]
     else:
-        config_path = os.path.join(os.path.dirname(__file__), "..", "config.yml")
+        config_candidates = [os.path.join(root_dir, "config.yml")]
 
-    try:
-        with open(config_path, "r") as f:
-            config = yaml.safe_load(f)
-    except FileNotFoundError:
+    config_path = next((path for path in config_candidates if os.path.exists(path)), None)
+    if config_path is None:
         if demo:
-            logger.error("config.example.yml not found.")
+            logger.error("Neither config.example.yml nor config.yml was found.")
         else:
             logger.error("config.yml not found. Copy config.example.yml to config.yml and edit it.")
         sys.exit(1)
+
+    if demo and config_path.endswith("config.yml"):
+        logger.info("Demo mode: config.example.yml not found, falling back to config.yml.")
+
+    with open(config_path, "r", encoding="utf-8") as f:
+        config = yaml.safe_load(f)
 
     try:
         config = validate_config(config)
@@ -121,14 +129,14 @@ def main():
     gen_parser.add_argument(
         "--demo",
         action="store_true",
-        help="Generate SVGs with demo data (no API calls, uses config.example.yml)",
+        help="Generate SVGs with demo data (no API calls, uses config.example.yml or config.yml)",
     )
 
     # Top-level --demo for backward compatibility (python -m generator.main --demo)
     parser.add_argument(
         "--demo",
         action="store_true",
-        help="Generate SVGs with demo data (no API calls, uses config.example.yml)",
+        help="Generate SVGs with demo data (no API calls, uses config.example.yml or config.yml)",
     )
 
     args = parser.parse_args()
