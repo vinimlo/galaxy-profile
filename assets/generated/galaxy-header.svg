@@ -264,8 +264,8 @@
       <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" begin="0.0s" repeatCount="indefinite"/>
     </circle>
     <line x1="394.7" y1="176.8" x2="380.1" y2="187.3" stroke="#00d4ff" stroke-width="0.5" opacity="0.25" stroke-dasharray="2 2"/>
-    <text x="380.1" y="190.3" text-anchor="end" fill="#00d4ff" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Python</text>
-    <text x="380.1" y="190.3" text-anchor="end" fill="#00d4ff" font-size="9" font-family="monospace" opacity="0.85">Python</text>
+    <text x="380.1" y="190.3" text-anchor="end" fill="#00d4ff" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Desenvolvimento de APIs</text>
+    <text x="380.1" y="190.3" text-anchor="end" fill="#00d4ff" font-size="9" font-family="monospace" opacity="0.85">Desenvolvimento de APIs</text>
     <circle cx="284.2" cy="166.5" r="2.5" fill="#00d4ff" opacity="0.85">
       <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" begin="0.7s" repeatCount="indefinite"/>
     </circle>
@@ -276,50 +276,86 @@
       <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" begin="1.4s" repeatCount="indefinite"/>
     </circle>
     <line x1="257.1" y1="125.3" x2="239.3" y2="122.2" stroke="#00d4ff" stroke-width="0.5" opacity="0.25" stroke-dasharray="2 2"/>
-    <text x="239.3" y="125.2" text-anchor="end" fill="#00d4ff" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Supabase/PostgreSQL</text>
-    <text x="239.3" y="125.2" text-anchor="end" fill="#00d4ff" font-size="9" font-family="monospace" opacity="0.85">Supabase/PostgreSQL</text>
+    <text x="239.3" y="125.2" text-anchor="end" fill="#00d4ff" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Typebot</text>
+    <text x="239.3" y="125.2" text-anchor="end" fill="#00d4ff" font-size="9" font-family="monospace" opacity="0.85">Typebot</text>
     <circle cx="414.4" cy="88.8" r="2.5" fill="#00d4ff" opacity="0.85">
       <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" begin="2.0999999999999996s" repeatCount="indefinite"/>
     </circle>
     <line x1="414.4" y1="88.8" x2="411.6" y2="71.0" stroke="#00d4ff" stroke-width="0.5" opacity="0.25" stroke-dasharray="2 2"/>
-    <text x="411.6" y="74.0" text-anchor="middle" fill="#00d4ff" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Process Automation</text>
-    <text x="411.6" y="74.0" text-anchor="middle" fill="#00d4ff" font-size="9" font-family="monospace" opacity="0.85">Process Automation</text>
+    <text x="411.6" y="74.0" text-anchor="middle" fill="#00d4ff" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Evolution API</text>
+    <text x="411.6" y="74.0" text-anchor="middle" fill="#00d4ff" font-size="9" font-family="monospace" opacity="0.85">Evolution API</text>
     <circle cx="372.0" cy="136.2" r="2.5" fill="#a78bfa" opacity="0.85">
       <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" begin="0.0s" repeatCount="indefinite"/>
     </circle>
     <line x1="372.0" y1="136.2" x2="355.1" y2="130.2" stroke="#a78bfa" stroke-width="0.5" opacity="0.25" stroke-dasharray="2 2"/>
-    <text x="355.1" y="133.2" text-anchor="end" fill="#a78bfa" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Desenvolvimento de APIs</text>
-    <text x="355.1" y="133.2" text-anchor="end" fill="#a78bfa" font-size="9" font-family="monospace" opacity="0.85">Desenvolvimento de APIs</text>
-    <circle cx="499.1" cy="119.3" r="2.5" fill="#a78bfa" opacity="0.85">
+    <text x="355.1" y="133.2" text-anchor="end" fill="#a78bfa" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Python</text>
+    <text x="355.1" y="133.2" text-anchor="end" fill="#a78bfa" font-size="9" font-family="monospace" opacity="0.85">Python</text>
+    <circle cx="396.5" cy="127.1" r="2.5" fill="#a78bfa" opacity="0.85">
       <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" begin="0.7s" repeatCount="indefinite"/>
     </circle>
-    <line x1="499.1" y1="119.3" x2="515.3" y2="111.5" stroke="#a78bfa" stroke-width="0.5" opacity="0.25" stroke-dasharray="2 2"/>
-    <text x="515.3" y="114.5" text-anchor="start" fill="#a78bfa" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Integração PIX</text>
-    <text x="515.3" y="114.5" text-anchor="start" fill="#a78bfa" font-size="9" font-family="monospace" opacity="0.85">Integração PIX</text>
-    <circle cx="652.5" cy="156.0" r="2.5" fill="#a78bfa" opacity="0.85">
+    <line x1="396.5" y1="127.1" x2="383.7" y2="114.5" stroke="#a78bfa" stroke-width="0.5" opacity="0.25" stroke-dasharray="2 2"/>
+    <text x="383.7" y="117.5" text-anchor="end" fill="#a78bfa" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">JavaScript</text>
+    <text x="383.7" y="117.5" text-anchor="end" fill="#a78bfa" font-size="9" font-family="monospace" opacity="0.85">JavaScript</text>
+    <circle cx="440.7" cy="120.6" r="2.5" fill="#a78bfa" opacity="0.85">
       <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" begin="1.4s" repeatCount="indefinite"/>
     </circle>
+    <line x1="440.7" y1="120.6" x2="448.2" y2="104.3" stroke="#a78bfa" stroke-width="0.5" opacity="0.25" stroke-dasharray="2 2"/>
+    <text x="448.2" y="107.3" text-anchor="middle" fill="#a78bfa" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Webhooks</text>
+    <text x="448.2" y="107.3" text-anchor="middle" fill="#a78bfa" font-size="9" font-family="monospace" opacity="0.85">Webhooks</text>
+    <circle cx="499.1" cy="119.3" r="2.5" fill="#a78bfa" opacity="0.85">
+      <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" begin="2.0999999999999996s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="499.1" y1="119.3" x2="515.3" y2="111.5" stroke="#a78bfa" stroke-width="0.5" opacity="0.25" stroke-dasharray="2 2"/>
+    <text x="515.3" y="114.5" text-anchor="start" fill="#a78bfa" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Next.js</text>
+    <text x="515.3" y="114.5" text-anchor="start" fill="#a78bfa" font-size="9" font-family="monospace" opacity="0.85">Next.js</text>
+    <circle cx="562.0" cy="124.6" r="2.5" fill="#a78bfa" opacity="0.85">
+      <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" begin="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="562.0" y1="124.6" x2="579.6" y2="120.7" stroke="#a78bfa" stroke-width="0.5" opacity="0.25" stroke-dasharray="2 2"/>
+    <text x="579.6" y="123.7" text-anchor="start" fill="#a78bfa" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">React</text>
+    <text x="579.6" y="123.7" text-anchor="start" fill="#a78bfa" font-size="9" font-family="monospace" opacity="0.85">React</text>
+    <circle cx="617.4" cy="137.2" r="2.5" fill="#a78bfa" opacity="0.85">
+      <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" begin="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="617.4" y1="137.2" x2="635.3" y2="135.5" stroke="#a78bfa" stroke-width="0.5" opacity="0.25" stroke-dasharray="2 2"/>
+    <text x="635.3" y="138.5" text-anchor="start" fill="#a78bfa" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Node.js</text>
+    <text x="635.3" y="138.5" text-anchor="start" fill="#a78bfa" font-size="9" font-family="monospace" opacity="0.85">Node.js</text>
+    <circle cx="652.5" cy="156.0" r="2.5" fill="#a78bfa" opacity="0.85">
+      <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" begin="4.199999999999999s" repeatCount="indefinite"/>
+    </circle>
     <line x1="652.5" y1="156.0" x2="670.5" y2="156.1" stroke="#a78bfa" stroke-width="0.5" opacity="0.25" stroke-dasharray="2 2"/>
-    <text x="670.5" y="159.1" text-anchor="start" fill="#a78bfa" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Webhooks</text>
-    <text x="670.5" y="159.1" text-anchor="start" fill="#a78bfa" font-size="9" font-family="monospace" opacity="0.85">Webhooks</text>
+    <text x="670.5" y="159.1" text-anchor="start" fill="#a78bfa" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">TypeScript</text>
+    <text x="670.5" y="159.1" text-anchor="start" fill="#a78bfa" font-size="9" font-family="monospace" opacity="0.85">TypeScript</text>
     <circle cx="514.5" cy="150.8" r="2.5" fill="#ffb020" opacity="0.85">
       <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" begin="0.0s" repeatCount="indefinite"/>
     </circle>
     <line x1="514.5" y1="150.8" x2="532.5" y2="149.9" stroke="#ffb020" stroke-width="0.5" opacity="0.25" stroke-dasharray="2 2"/>
     <text x="532.5" y="152.9" text-anchor="start" fill="#ffb020" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Git</text>
     <text x="532.5" y="152.9" text-anchor="start" fill="#ffb020" font-size="9" font-family="monospace" opacity="0.85">Git</text>
-    <circle cx="521.5" cy="187.1" r="2.5" fill="#ffb020" opacity="0.85">
+    <circle cx="541.3" cy="173.1" r="2.5" fill="#ffb020" opacity="0.85">
       <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" begin="0.7s" repeatCount="indefinite"/>
     </circle>
-    <line x1="521.5" y1="187.1" x2="538.6" y2="192.8" stroke="#ffb020" stroke-width="0.5" opacity="0.25" stroke-dasharray="2 2"/>
-    <text x="538.6" y="195.8" text-anchor="start" fill="#ffb020" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Docker</text>
-    <text x="538.6" y="195.8" text-anchor="start" fill="#ffb020" font-size="9" font-family="monospace" opacity="0.85">Docker</text>
-    <circle cx="325.1" cy="206.8" r="2.5" fill="#ffb020" opacity="0.85">
+    <line x1="541.3" y1="173.1" x2="559.1" y2="175.9" stroke="#ffb020" stroke-width="0.5" opacity="0.25" stroke-dasharray="2 2"/>
+    <text x="559.1" y="178.9" text-anchor="start" fill="#ffb020" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Docker</text>
+    <text x="559.1" y="178.9" text-anchor="start" fill="#ffb020" font-size="9" font-family="monospace" opacity="0.85">Docker</text>
+    <circle cx="475.7" cy="199.3" r="2.5" fill="#ffb020" opacity="0.85">
       <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" begin="1.4s" repeatCount="indefinite"/>
     </circle>
+    <line x1="475.7" y1="199.3" x2="489.3" y2="211.1" stroke="#ffb020" stroke-width="0.5" opacity="0.25" stroke-dasharray="2 2"/>
+    <text x="489.3" y="214.1" text-anchor="start" fill="#ffb020" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Linux</text>
+    <text x="489.3" y="214.1" text-anchor="start" fill="#ffb020" font-size="9" font-family="monospace" opacity="0.85">Linux</text>
+    <circle cx="325.1" cy="206.8" r="2.5" fill="#ffb020" opacity="0.85">
+      <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" begin="2.0999999999999996s" repeatCount="indefinite"/>
+    </circle>
     <line x1="325.1" y1="206.8" x2="309.1" y2="215.1" stroke="#ffb020" stroke-width="0.5" opacity="0.25" stroke-dasharray="2 2"/>
-    <text x="309.1" y="218.1" text-anchor="end" fill="#ffb020" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Linux</text>
-    <text x="309.1" y="218.1" text-anchor="end" fill="#ffb020" font-size="9" font-family="monospace" opacity="0.85">Linux</text>
+    <text x="309.1" y="218.1" text-anchor="end" fill="#ffb020" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Supabase/PostgreSQL</text>
+    <text x="309.1" y="218.1" text-anchor="end" fill="#ffb020" font-size="9" font-family="monospace" opacity="0.85">Supabase/PostgreSQL</text>
+    <circle cx="171.4" cy="180.6" r="2.5" fill="#ffb020" opacity="0.85">
+      <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" begin="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="171.4" y1="180.6" x2="153.4" y2="182.5" stroke="#ffb020" stroke-width="0.5" opacity="0.25" stroke-dasharray="2 2"/>
+    <text x="153.4" y="185.5" text-anchor="end" fill="#ffb020" font-size="9" font-family="monospace" opacity="0.2" filter="url(#label-glow)">Cloud</text>
+    <text x="153.4" y="185.5" text-anchor="end" fill="#ffb020" font-size="9" font-family="monospace" opacity="0.85">Cloud</text>
 
   <!-- 9. Project stars -->
     <circle cx="623.9" cy="202.4" r="4" fill="#a78bfa" filter="url(#star-glow-1)">
@@ -358,6 +394,6 @@
 
   <!-- 12. Profile text -->
   <text x="425" y="26" text-anchor="middle" fill="#f1f5f9" font-size="20" font-weight="bold" font-family="sans-serif">Guilherme de Lima Andrade</text>
-  <text x="425" y="44" text-anchor="middle" fill="#94a3b8" font-size="12" font-family="sans-serif">Software Developer &amp; SaaS Founder</text>
+  <text x="425" y="44" text-anchor="middle" fill="#94a3b8" font-size="12" font-family="sans-serif">Software Developer</text>
   <text x="425" y="268" text-anchor="middle" fill="#64748b" font-size="11" font-family="monospace" font-style="italic">&quot;Construindo sistemas que resolvem problemas reais e automatizam o dia a dia.&quot;</text>
 </svg>
