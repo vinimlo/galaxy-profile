@@ -24,22 +24,28 @@ galaxy_arms:
   - name: "IA & Automação"
     color: "synapse_cyan"
     items:
-      - "Python"
+      - "Desenvolvimento de APIs"
       - "N8N"
-      - "Supabase/PostgreSQL"
-      - "Process Automation"
+      - "Typebot"
+      - "Evolution API"
   - name: "Backend & SaaS"
     color: "dendrite_violet"
     items:
-      - "Desenvolvimento de APIs"
-      - "Integração PIX"
+      - "Python"
+      - "JavaScript"
       - "Webhooks"
+      - "Next.js"
+      - "React"
+      - "Node.js"
+      - "TypeScript"
   - name: "Infra & Ferramentas"
     color: "axon_amber"
     items:
       - "Git"
       - "Docker"
       - "Linux"
+      - "Supabase/PostgreSQL"
+      - "Cloud"
 
 # Seus projetos em destaque (ajuste o 'repo' para os caminhos reais no seu GitHub)
 projects:
